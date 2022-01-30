@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <title>Personal Page</title> 
+  </head>
+
+  <body> 
+    <h1>Welcome Page</h1> 
+    Enter passcode:
+    <input id="password" type="password">
+    <input id="button1" type="button" value="Check" onclick="passCheck()">
+  </body>
+
+  <script>
+    function passCheck() {
+      const pass = document.getElementById('password');
+
+      if(pass == "poop") {
+        alert("You entered it correctly");
+      } else {
+        alert("Invalid Password");
+      }
+    }
+  </script>
+
+</html>
